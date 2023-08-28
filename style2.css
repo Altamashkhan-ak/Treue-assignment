@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  /* Hero Styles */
+  .hero {
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Features Styles */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    width: calc(100% / 3);
+    padding: 1rem;
+  }
+  
+  .feature img {
+    width: 100%;
+  }
+  
+  .feature h3 {
+    margin-top: .5rem;
+  }
+  
+  .feature p {
+    margin-top: .5rem;
+  }
+  
+  .feature a {
+    display: inline-block;
+    margin-top: .5rem;
+  }
+  
+  /* CTA Styles */
+  .cta {
+      background-color:#333; 
+      color:#ffffff; 
+      padding:2rem; 
+      text-align:center; 
+      margin-top:-1px; 
+      position:relative; 
+      z-index:1; 
+  }
+  .cta h2 { 
+      margin-bottom:.5rem; 
+  }
+  .cta input[type="text"], .cta input[type="email"], .cta textarea { 
+      width:100%; 
+      padding:.5rem; 
+      margin-bottom:.5rem; 
+      border:none; 
+  }
+  .cta button[type="submit"] { 
+      background-color:#fff; 
+      color:#333; 
+      border:none; 
+      padding:.5rem; 
+      cursor:pointer; 
+  }
+  .cta button[type="submit"]:hover { 
+      background-color:#f4f4f4; 
+  }
+  
